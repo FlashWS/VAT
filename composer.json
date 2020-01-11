@@ -1,0 +1,27 @@
+{
+  "name": "lisin/vat",
+  "description": "VAT 20% normalization functions for Laravel",
+  "type": "library",
+  "require": {
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lisin Sergey",
+      "email": "sergey@lisin.expert"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Lisin\\VAT\\VATServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Lisin\\VAT\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
